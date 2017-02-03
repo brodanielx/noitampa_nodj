@@ -81,11 +81,17 @@ i.fa.white {
   .jumbotron h1, .jumbotron .h1 {
     font-size: 63px;
   }
+  .jumbotron .tsg {
+    font-size: 12px;
+  }
 }
 @media screen and (max-width: 1201px) {
   .jumbotron h1,
   .jumbotron .h1 {
     font-size: 52px;
+  }
+  .jumbotron .tsg {
+    font-size: 11px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -95,6 +101,9 @@ i.fa.white {
   }
   .jumbotron .of {
     font-size: 26px !important;
+  }
+  .jumbotron .tsg {
+    font-size: 9px;
   }
 }
 @media screen and (max-width: 718px) {
