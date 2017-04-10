@@ -40,6 +40,10 @@ i.fa.white {
 .mt10 {
   margin-top: 10px;
 }
+
+.mt15 {
+  margin-top: 15px;
+}
 .nptb {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
@@ -202,4 +206,34 @@ hr {
 .mtb25 {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.pr50 {
+  padding-right: 50px;
+}
+
+.height265 {
+  height: 265px;
+  max-height: 265px;
+}
+
+/*elijah img sizing*/
+@media all and (max-width: 1099px) {
+    .elijah {
+      height: 250px;
+    }
+}
+@media all and (max-width: 991px) {
+    .elijah {
+      height: 225px;
+    }
+}
+@media all and (max-width: 879px) {
+    .elijah {
+      height: 205px;
+    }
+}
+
+.merriweather {
+  font-family: 'Merriweather', serif;
 }
