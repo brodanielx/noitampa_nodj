@@ -32,6 +32,18 @@ infoCenterDrop.addEventListener('mouseleave', function() {
   infoCenterDrop.classList.remove('open');
 });
 
+let selfa = document.getElementById('self');
+let studygroup = document.getElementById('studygroup');
+selfa.addEventListener('click', function() {
+  studygroup.classList.toggle('collapse');
+});
+
+let sundayma = document.getElementById('sundayma');
+let sundaymeeting = document.getElementById('sundaymeeting');
+sundayma.addEventListener('click', function() {
+  sundaymeeting.classList.toggle('collapse');
+});
+
 $('a[href*="#"]:not([href="#"])').click(function() {
   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
     var target = $(this.hash);

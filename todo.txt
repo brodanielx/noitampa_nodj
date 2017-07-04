@@ -1,3 +1,0 @@
-- add proper padding to each section (tampa study group, meeting times, literature)
-- choose better back ground color for light gray bg sections
-- add link to get directions button 
