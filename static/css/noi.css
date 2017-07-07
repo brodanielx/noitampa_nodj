@@ -128,15 +128,9 @@ i.fa.white {
     font-size: 16px !important;
   }
 }
-@media all and (max-width: 767px) {
-    .floated_div { display: none; }
-}
-@media all and (min-width: 768px) {
-    .iphone-only { display: none; }
-}
 img {
     max-width: 100%;
-    /*height: auto;*/
+    height: auto;
 }
 .mt20 {
   margin-top: 20px;
@@ -213,27 +207,20 @@ hr {
 }
 
 .height265 {
-  height: 265px;
   max-height: 265px;
-}
-
-/*elijah img sizing*/
-@media all and (max-width: 1099px) {
-    .elijah {
-      height: 250px;
-    }
-}
-@media all and (max-width: 991px) {
-    .elijah {
-      height: 225px;
-    }
-}
-@media all and (max-width: 879px) {
-    .elijah {
-      height: 205px;
-    }
 }
 
 .merriweather {
   font-family: 'Merriweather', serif;
+}
+
+.width12per {
+  width: 12%;
+}
+.width20per {
+  width: 20%;
+}
+
+.width34per {
+  width: 34%;
 }
