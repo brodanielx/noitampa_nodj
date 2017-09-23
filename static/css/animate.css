@@ -13,6 +13,21 @@
   animation-fill-mode: both;
 }
 
+.animated2 {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+.animated3 {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+
+.animated3h {
+  animation-duration: 3.5s;
+  animation-fill-mode: both;
+}
+
 .animated.infinite {
   animation-iteration-count: infinite;
 }
