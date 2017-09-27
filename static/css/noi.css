@@ -127,10 +127,24 @@ i.fa.white {
   .jumbotron .of {
     font-size: 16px !important;
   }
+  .jumbotron .not-iphone {
+    display: none;
+  }
+  .jumbotron .iphone {
+    display: inline;
+  }
 }
+
+.display-none {
+  display: none;
+}
+
 img {
     max-width: 100%;
     height: auto;
+}
+.mt7 {
+  margin-top: 7px;
 }
 .mt20 {
   margin-top: 20px;
