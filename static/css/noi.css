@@ -81,6 +81,14 @@ i.fa.white {
    line-height: 0.1em;
    margin: 15px 0 10px;
 }
+
+.line-small {
+   width: 10%;
+   text-align: center;
+   border-bottom: 1px solid #fff;
+   line-height: 0.1em;
+   margin: 15px 0 10px;
+}
 @media screen and (max-width: 2400px) {
   .jumbotron h1, .jumbotron .h1 {
     font-size: 63px;
@@ -132,6 +140,9 @@ i.fa.white {
   }
   .jumbotron .iphone {
     display: inline;
+  }
+  .iphone-hide {
+    display: none;
   }
 }
 
