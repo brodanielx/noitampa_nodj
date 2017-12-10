@@ -1,8 +1,14 @@
+let sections = document.querySelectorAll('.alternate-bg');
+for (let i = 0; i < sections.length; i++) {
+  if (i % 2 === 0) {
+    sections[i].className += ' lightnonwhitebg';
+  }
+}
+
 var webcast = document.getElementById('webcast');
 var webcastDrop = document.getElementById('webcastdrop');
 var infoCenter = document.getElementById('infocenter');
 var infoCenterDrop = document.getElementById('infocenterdrop');
-// window.console.log(infoCenter);
 
 // webcast dropdown
 webcast.addEventListener('mouseover', function() {
